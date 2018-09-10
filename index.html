@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quick start. Local static application</title>
+</head>
+<body>
+    <div>
+        <button id='generator'>Генерировать</button>
+        <button id='search'>Искать</button>
+    </div>
+
+
+    <script src="//api.bitrix24.com/api/v1/"></script>
+    <script src="js/app.js"></script>
+    <script type="text/javascript">
+        BX24.init(function (argument) {
+            app.searchContacts();
+        })
+
+    </script>
+</body>
+</html>
